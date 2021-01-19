@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      li {
+        background-color: #fff;
+      }
+      li a:hover {
+        color: #e54077;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="">女装</a>&nbsp;/&nbsp;<a href="">内衣</a></li>
+    </ul>
+    // 方法 1 ： 引入module.js，然后在script标签里面调用
+    <!-- <script type="module">
+      import test from "./module.js";
+      console.log(test());
+    </script> -->
+
+    // 方法 2 ： 直接引入index.js，使用src引入
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
